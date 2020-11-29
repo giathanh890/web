@@ -12,3 +12,18 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   setTimeout(showSlides, 2000);
 }
+
+var itemIndex = 0;
+showitem();
+
+function showitem() {
+  var i;
+  var items = document.getElementsByClassName("content1");
+  for (i = 0; i < items.length; i++) {
+    items[i].style.display = "none";  
+  }
+  itemIndex++;
+  if (itemIndex > items.length) {itemIndex = 1}    
+  items[itemIndex-1].style.display = "flex";  
+  setTimeout(showitem, 2500);
+}
