@@ -1,0 +1,21 @@
+.page {
+    height: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.page a {
+    margin-top: 10%;
+    display: inline;
+    padding: 7px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.page a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+.fade {
+    transform-origin: right left;
+    animation: fade 1.5s ease-in-out forwards;
+}
+
+@keyframes fade {
+    from {opacity: .4;
+    }
+    to {opacity: 1;
+    }
+}

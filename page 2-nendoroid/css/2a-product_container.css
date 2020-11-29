@@ -1,0 +1,39 @@
+.container {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    margin: 20px 50px;
+    padding: 0px;
+}
+
+.container > div > p {
+    line-height: 2px;
+    font-weight: bold;
+}
+
+.container > div > a > img {
+    width: 220px;
+    height: 310px;
+    
+}
+
+.container > div > h4 {
+    border-bottom: solid 3px black;
+    padding: 0;
+    margin: 0;
+    color: grey;
+}
+
+.border {
+    width: fit-content;
+    padding: 0px;
+}
+
+.border:hover {
+    box-shadow: 3px 3px black;
+    width: fit-content;
+}
